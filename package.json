@@ -1,0 +1,23 @@
+{
+  "name": "@pat-project/web-sdk",
+  "version": "0.0.0",
+  "description": "Web SDK for the Pat Project",
+  "main": "lib/sdk.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pat-project/web-sdk.git"
+  },
+  "keywords": [],
+  "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pat-project/web-sdk/issues"
+  },
+  "homepage": "https://github.com/pat-project/web-sdk#readme"
+}
