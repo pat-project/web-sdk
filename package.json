@@ -8,11 +8,14 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test/sdk.spec.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pat-project/web-sdk.git"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
   },
   "keywords": [],
   "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
@@ -23,6 +26,7 @@
   "homepage": "https://github.com/pat-project/web-sdk#readme",
   "devDependencies": {
     "jest": "^25.4.0",
-    "jest-puppeteer": "^4.4.0"
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^3.0.0"
   }
 }
