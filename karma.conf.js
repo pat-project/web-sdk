@@ -21,10 +21,22 @@ module.exports = (config) => {
       { pattern: 'lib/*.js', type: 'module', included: false }
     ],
 
-    reporters: ['progress'],
+    reporters: [ 'coverage-istanbul' ],
 
     browsers: [],
     
-    singleRun: false
+    singleRun: false,
+
+    preprocessors: {
+      'lib/*.js': [ 'karma-coverage-istanbul-instrumenter' ]
+    },
+
+    coverageIstanbulInstrumenter: {
+      esModules: true
+    },
+
+    coverageIstanbulReporter: {
+      reports: [ 'text' ]
+    }
   })
 }

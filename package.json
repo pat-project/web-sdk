@@ -22,6 +22,8 @@
   "homepage": "https://github.com/pat-project/web-sdk#readme",
   "devDependencies": {
     "karma": "^5.0.2",
+    "karma-coverage-istanbul-instrumenter": "^1.0.2",
+    "karma-coverage-istanbul-reporter": "^2.1.1",
     "karma-mocha": "^2.0.0",
     "karma-should": "^1.0.0",
     "mocha": "^7.1.1",
