@@ -56,9 +56,16 @@ describe('PatSDK#recordTicket', () => {
   })
 })
 
+/**
+ * Squash an `ArrayBuffer` into a RLE (run-length encoded) sort of format.
+ * 
+ * @param {ArrayBuffer} buf
+ *
+ * @returns {String}
+ */
 function squashArrayBuffer(buf) {
   return buf 
-    .reduce((a, n) => a + n.toString(2).padStart(8, 0), "")
+    .reduce((a, n) => a + n.toString(2).padStart(8, 0), '')
     .replace(/([0])+/g, (run, char) => `(${run.length})`)
 }
 
