@@ -1,6 +1,6 @@
 {
   "name": "@pat-project/web-sdk",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Web SDK for the Pat Project",
   "main": "lib/sdk.js",
   "directories": {
@@ -22,11 +22,15 @@
   "homepage": "https://github.com/pat-project/web-sdk#readme",
   "devDependencies": {
     "karma": "^5.0.2",
+    "karma-chrome-launcher": "^3.1.0",
     "karma-coverage-istanbul-instrumenter": "^1.0.2",
     "karma-coverage-istanbul-reporter": "^2.1.1",
     "karma-mocha": "^2.0.0",
     "karma-should": "^1.0.0",
     "mocha": "^7.1.1",
     "should": "^13.2.3"
+  },
+  "dependencies": {
+    "puppeteer": "^3.0.1"
   }
 }
