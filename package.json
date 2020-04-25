@@ -28,8 +28,5 @@
     "karma-should": "^1.0.0",
     "mocha": "^7.1.1",
     "should": "^13.2.3"
-  },
-  "dependencies": {
-    "puppeteer": "^3.0.1"
   }
 }
