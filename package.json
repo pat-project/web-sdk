@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/pat-project/web-sdk/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/pat-project/web-sdk#readme",
   "devDependencies": {
     "karma": "^5.0.2",
